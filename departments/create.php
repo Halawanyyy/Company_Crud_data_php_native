@@ -3,6 +3,7 @@ include '../general/functions.php';
 include '../general/env.php';
 include '../shared/header.php';
 include '../shared/nav.php';
+auth();
 
 if(isset($_GET["submit"]) ){
     $name=$_GET["name"];

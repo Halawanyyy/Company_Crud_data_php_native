@@ -3,7 +3,7 @@ include '../general/functions.php';
 include '../general/env.php';
 include '../shared/header.php';
 include '../shared/nav.php';
-
+auth();
 $join="SELECT * FROM depandemp";
 $joincheck=mysqli_query($connection,$join);
 $a = mysqli_fetch_assoc($joincheck);

@@ -1,4 +1,5 @@
 <?php
+session_start();
 function test($condition, $message)
 {
     if($condition)
@@ -13,4 +14,6 @@ function path($p){
     </script>
     ";
 }
+
+
 ?>

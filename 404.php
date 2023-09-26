@@ -3,12 +3,10 @@ include './general/functions.php';
 include './general/env.php';
 include './shared/header.php';
 include './shared/nav.php';
-auth();
+
 ?>
 
-<div class="home">
-    <h1 class="text-center pt-5">Welcome to Home page</h1>
-</div>
-<?php 
+<h2 class="text-center ">Cant access this page!</h2>
+<?php
 include './shared/footer.php';
 ?>
